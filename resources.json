@@ -1,0 +1,78 @@
+{
+  "categories": [
+    {
+      "id": "official",
+      "name": { "en": "Official Resources", "zh": "官方资源" },
+      "items": [
+        {
+          "id": "openclaw-core",
+          "name": "OpenClaw Core",
+          "url": "https://github.com/openclaw/openclaw",
+          "description": {
+            "en": "The main engine and orchestration layer for AI agents",
+            "zh": "AI 助手的核心引擎与编排层"
+          },
+          "author": { "name": "OpenClaw Team", "url": "https://github.com/openclaw" },
+          "tags": ["core", "official", "open-source"],
+          "license": "Apache-2.0",
+          "stars_count": 1200,
+          "last_updated": "2026-03-02"
+        }
+      ]
+    },
+    {
+      "id": "integrations",
+      "name": { "en": "Integrations", "zh": "核心集成" },
+      "items": [
+        {
+          "id": "openai-adapter",
+          "name": "OpenAI Integration",
+          "url": "https://getclawai.com/docs/integrations/openai",
+          "description": { "en": "Standard adapter for OpenAI models", "zh": "OpenAI 模型标准适配器" },
+          "tags": ["llm", "plugin"],
+          "features": {
+            "en": ["GPT-4o support", "Efficient token streaming"],
+            "zh": ["支持 GPT-4o", "高效的 Token 流式传输"]
+          },
+          "last_updated": "2026-03-02"
+        },
+        {
+          "id": "claude-adapter",
+          "name": "Claude Integration",
+          "url": "https://getclawai.com/docs/integrations/claude",
+          "description": { "en": "Deep integration for Anthropic Claude", "zh": "Anthropic Claude 深度集成" },
+          "tags": ["llm", "inference"],
+          "features": {
+            "en": ["Native prompt caching", "Artifacts support"],
+            "zh": ["原生 Prompt 缓存", "支持 Artifacts 展示"]
+          },
+          "last_updated": "2026-03-02"
+        }
+      ]
+    },
+    {
+      "id": "showcases",
+      "name": { "en": "Showcases", "zh": "案例展示" },
+      "items": [
+        {
+          "id": "star-office-ui",
+          "name": "Star-Office-UI",
+          "url": "https://github.com/ringhyacinth/Star-Office-UI",
+          "description": {
+            "en": "Beautiful Office UI based on GetClawAI",
+            "zh": "基于 GetClawAI 的精美桌面办公 UI"
+          },
+          "author": { "name": "ringhyacinth", "url": "https://github.com/ringhyacinth" },
+          "tags": ["showcase", "ui", "typescript"],
+          "stars_count": 45,
+          "features": {
+            "en": ["Admin dashboard", "Tailwind CSS styling", "Modular components"],
+            "zh": ["后台管理面板", "Tailwind CSS 样式", "模块化组件"]
+          },
+          "license": "MIT",
+          "last_updated": "2026-03-02"
+        }
+      ]
+    }
+  ]
+}
