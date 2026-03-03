@@ -53,6 +53,10 @@ npx clawhub@latest install <skill-slug>
 
 - **[Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI)** - A beautiful desktop office UI built on OpenClaw.
 
+## 🧩 Community Skills
+
+- **[XiaohongshuSkills](https://github.com/white0dew/XiaohongshuSkills)** - A powerful skill for Xiaohongshu auto-publishing, commenting, and searching. Supports OpenClaw.
+
 ---
 
 ## 🤝 Contributing

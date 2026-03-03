@@ -73,6 +73,29 @@
           "last_updated": "2026-03-02"
         }
       ]
+    },
+    {
+      "id": "skills",
+      "name": { "en": "Community Skills", "zh": "社区技能" },
+      "items": [
+        {
+          "id": "xiaohongshu-skills",
+          "name": "XiaohongshuSkills",
+          "url": "https://github.com/white0dew/XiaohongshuSkills",
+          "description": {
+            "en": "A powerful skill for Xiaohongshu auto-publishing, commenting, and searching. Supports OpenClaw and Claude Code.",
+            "zh": "支持小红书自动发布、自动评论、自动检索的强大技能。支持 OpenClaw、Claude Code 等。"
+          },
+          "author": { "name": "white0dew", "url": "https://github.com/white0dew" },
+          "tags": ["skill", "social-media", "automation"],
+          "features": {
+            "en": ["Auto-publish", "Auto-comment", "Content retrieval", "Multi-account management"],
+            "zh": ["自动发布", "自动评论", "内容检索", "多账号管理"]
+          },
+          "license": "MIT",
+          "last_updated": "2026-03-03"
+        }
+      ]
     }
   ]
 }
