@@ -17,6 +17,38 @@
           "license": "Apache-2.0",
           "stars_count": 1200,
           "last_updated": "2026-03-02"
+        },
+        {
+          "id": "moltworker",
+          "name": "Moltworker (Cloudflare)",
+          "url": "https://github.com/cloudflare/moltworker",
+          "description": {
+            "en": "Official Cloudflare middleware to run OpenClaw agents on the edge using Workers, R2, and Browser Rendering.",
+            "zh": "Cloudflare 官方提供的中间件，支持利用 Workers、R2 和浏览器渲染技术在边缘侧运行 OpenClaw 智能体。"
+          },
+          "author": { "name": "Cloudflare", "url": "https://github.com/cloudflare" },
+          "tags": ["official", "cloud-deployment", "middleware", "edge-computing"],
+          "features": {
+            "en": ["Serverless execution", "Low-latency edge hosting", "Secure sandbox environment", "R2 persistent storage"],
+            "zh": ["无服务器执行", "低延迟边缘托管", "安全沙箱环境", "R2 持久化存储"]
+          },
+          "last_updated": "2026-03-04"
+        },
+        {
+          "id": "memu",
+          "name": "memU (NevaMind-AI)",
+          "url": "https://github.com/NevaMind-AI/memU",
+          "description": {
+            "en": "Advanced agentic memory framework for OpenClaw, enabling 24/7 proactive long-term memory with hierarchical retrieval.",
+            "zh": "为 OpenClaw 量身打造的高级智能体记忆框架，支持等级化检索，实现 24/7 主动式长期记忆。"
+          },
+          "author": { "name": "NevaMind-AI", "url": "https://github.com/NevaMind-AI" },
+          "tags": ["core-plugin", "memory-framework", "long-term-memory", "efficiency"],
+          "features": {
+            "en": ["Hierarchical memory structure", "Proactive retrieval", "Token cost reduction", "OpenClaw plugin support"],
+            "zh": ["等级化记忆结构", "主动式信息检索", "大幅降低 Token 消耗", "支持 OpenClaw 插件集成"]
+          },
+          "last_updated": "2026-03-04"
         }
       ]
     },
@@ -59,8 +91,8 @@
           "name": "Star-Office-UI",
           "url": "https://github.com/ringhyacinth/Star-Office-UI",
           "description": {
-            "en": "Beautiful Office UI based on GetClawAI",
-            "zh": "基于 GetClawAI 的精美桌面办公 UI"
+            "en": "A beautiful desktop office UI built on OpenClaw.",
+            "zh": "基于 OpenClaw 开发的精美桌面办公 UI。"
           },
           "author": { "name": "ringhyacinth", "url": "https://github.com/ringhyacinth" },
           "tags": ["showcase", "ui", "typescript"],
@@ -94,6 +126,98 @@
           },
           "license": "MIT",
           "last_updated": "2026-03-03"
+        }
+      ]
+    },
+    {
+      "id": "usecases",
+      "name": { "en": "Use Cases", "zh": "应用案例" },
+      "items": [
+        {
+          "id": "youtube-content-pipeline",
+          "name": "YouTube Content Pipeline",
+          "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/youtube-content-pipeline.md",
+          "description": {
+            "en": "A comprehensive automation pipeline for YouTube creators to find video ideas, track pitches, and manage content using OpenClaw and multiple skills.",
+            "zh": "为 YouTube 创作者提供的全面自动化流水线，利用 OpenClaw 和多种技能进行视频创意获取、提案追踪和内容管理。"
+          },
+          "author": { "name": "hesamsheikh", "url": "https://github.com/hesamsheikh" },
+          "tags": ["use-case", "automation", "content-creation", "youtube"],
+          "features": {
+            "en": ["Idea tracking via Telegram", "X/Twitter research v2", "SQLite pitch database", "RAG with knowledge-base"],
+            "zh": ["通过 Telegram 追踪创意", "X/Twitter 调研 v2", "SQLite 提案数据库", "利用知识库进行 RAG"]
+          },
+          "last_updated": "2026-03-04"
+        },
+        {
+          "id": "polymarket-autopilot",
+          "name": "Polymarket Autopilot",
+          "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/polymarket-autopilot.md",
+          "description": {
+            "en": "An automated paper trading system for Polymarket prediction markets using OpenClaw to execute trend, contrarian, and arbitrage strategies.",
+            "zh": "针对 Polymarket 预测市场的自动化模拟交易系统，利用 OpenClaw 执行趋势、逆向和套利策略。"
+          },
+          "author": { "name": "hesamsheikh", "url": "https://github.com/hesamsheikh" },
+          "tags": ["use-case", "automation", "trading", "prediction-market", "polymarket"],
+          "features": {
+            "en": ["Real-time Polymarket API monitoring", "Strategy-based analysis (Trend/Arbitrage)", "Discord performance reporting", "Paper trading with 10k capital"],
+            "zh": ["实时 Polymarket API 监控", "基于策略的分析（趋势/套利）", "Discord 性能报告", "1 万美金初始资金模拟交易"]
+          },
+          "last_updated": "2026-03-04"
+        },
+        {
+          "id": "personal-crm",
+          "name": "Personal CRM",
+          "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/personal-crm.md",
+          "description": {
+            "en": "An automated Personal CRM with contact discovery from Gmail/Calendar and daily meeting briefings via Telegram.",
+            "zh": "具有自动联系人发现功能的个人 CRM，可扫描 Gmail/日历并在 Telegram 上提供每日会议简报。"
+          },
+          "author": { "name": "hesamsheikh", "url": "https://github.com/hesamsheikh" },
+          "tags": ["use-case", "automation", "productivity", "crm", "google-workspace"],
+          "features": {
+            "en": ["Automatic contact discovery", "Gmail & Calendar interaction logging", "Daily morning briefings on Telegram", "Natural language contact queries"],
+            "zh": ["自动联系人发现", "Gmail 与日历交互日志记录", "Telegram 每日早间简报", "自然语言联系人查询"]
+          },
+          "last_updated": "2026-03-04"
+        },
+        {
+          "id": "content-factory",
+          "name": "Multi-Agent Content Factory",
+          "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/content-factory.md",
+          "description": {
+            "en": "A sophisticated multi-agent system on Discord for automated content production, including research, script writing, and thumbnail generation.",
+            "zh": "在 Discord 上运行的精密多代理系统，用于自动化内容制作，包括调研、脚本编写和缩略图生成。"
+          },
+          "author": { "name": "hesamsheikh", "url": "https://github.com/hesamsheikh" },
+          "tags": ["use-case", "automation", "content-creation", "multi-agent", "discord"],
+          "features": {
+            "en": ["Research agent for trending topics", "Writing agent for scripts/newsletters", "Thumbnail agent for cover art", "Automated overnight production"],
+            "zh": ["热点调研代理", "脚本/周报编写代理", "封面图生成代理", "全自动隔夜任务处理"]
+          },
+          "last_updated": "2026-03-04"
+        }
+      ]
+    },
+    {
+      "id": "channels",
+      "name": { "en": "Messaging Channels", "zh": "消息通道" },
+      "items": [
+        {
+          "id": "openclaw-wechat",
+          "name": "OpenClaw-Wechat",
+          "url": "https://github.com/freestylefly/openclaw-wechat",
+          "description": {
+            "en": "A WeChat channel plugin for OpenClaw, supporting direct messages, group chats, and QR code login.",
+            "zh": "为 OpenClaw 开发的微信通道插件，支持私聊、群聊及二维码扫码登录。"
+          },
+          "author": { "name": "freestylefly", "url": "https://github.com/freestylefly" },
+          "tags": ["channel", "wechat", "plugin", "integration"],
+          "features": {
+            "en": ["Direct & Group chat support", "Text & Image exchange", "QR code login flow", "Conversation memory implementation", "Voice-to-text (FunASR/WeChat)"],
+            "zh": ["支持私聊与群聊", "文字与图片收发", "二维码扫码登录流", "SDK 级上下文记忆", "语音转文字（FunASR/微信）"]
+          },
+          "last_updated": "2026-03-04"
         }
       ]
     }

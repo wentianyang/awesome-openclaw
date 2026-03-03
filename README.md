@@ -12,21 +12,22 @@ OpenClaw (previously known as Moltbot/Clawdbot) is a powerful locally-running AI
 
 ## 🛡️ Security Notice
 
-Items in this list are curated but **not audited**. Use them at your own risk. Always review the source code of any skill or plugin before installation.
-
 ---
 
 ## 🚀 Installation
 
-### Official CLI
+### 📥 Installation
+
 ```bash
-npm install -g openclaw@latest
+npm install openclaw
 ```
 
-### Installing Skills
-You can use **ClawHub** to install community skills:
+### 🛡️ Security Notice
+Please **NEVER** share your `OPENAI_API_KEY` or any other sensitive credentials.
+
 ```bash
-npx clawhub@latest install <skill-slug>
+# Good practice: use environment variables
+export OPENAI_API_KEY='your-key-here'
 ```
 
 ---
@@ -42,20 +43,30 @@ npx clawhub@latest install <skill-slug>
 
 - **[WhatsApp Channel](https://getclawai.com/docs/platforms/whatsapp)** - Connect your AI to WhatsApp Global network.
 - **[Telegram Channel](https://getclawai.com/docs/platforms/telegram)** - Deep integration for Telegram bots.
+- **[OpenClaw-Wechat](https://github.com/freestylefly/openclaw-wechat)** - A WeChat channel plugin, supporting direct messages, group chats, and QR code login.
 
 ## 🛠️ Developer Utilities
 
 - **[Claw CLI](https://www.npmjs.com/package/openclaw)** - The core command line orchestration tool.
 - **[Clawdbot](https://getclawai.com/docs/tools/clawdbot)** - The primary AI assistant agent in the ecosystem.
-- **[Moltbot](https://getclawai.com/docs/tools/moltbot)** - Multi-platform notification and monitoring bot.
+- **[Moltworker (Cloudflare)](https://github.com/cloudflare/moltworker)** - Official middleware to run OpenClaw agents on Cloudflare's edge network.
+- **[memU (NevaMind-AI)](https://github.com/NevaMind-AI/memU)** - Advanced agentic memory framework and OpenClaw plugin for persistent 24/7 long-term memory.
 
 ## 🎨 Showcases & UI
 
 - **[Star-Office-UI](https://github.com/ringhyacinth/Star-Office-UI)** - A beautiful desktop office UI built on OpenClaw.
+- **[OpenClaw Studio](https://github.com/grp06/openclaw-studio)** - A web-based dashboard for managing OpenClaw Gateway, AI agents, and workflows.
 
 ## 🧩 Community Skills
 
 - **[XiaohongshuSkills](https://github.com/white0dew/XiaohongshuSkills)** - A powerful skill for Xiaohongshu auto-publishing, commenting, and searching. Supports OpenClaw.
+
+## 💡 Use Cases
+
+- **[YouTube Content Pipeline](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/youtube-content-pipeline.md)** - A comprehensive automation pipeline for YouTube creators to find video ideas, track pitches, and manage content using OpenClaw.
+- **[Polymarket Autopilot](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/polymarket-autopilot.md)** - An automated paper trading system for Polymarket prediction markets using OpenClaw to execute trading strategies.
+- **[Personal CRM](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/personal-crm.md)** - An automated Personal CRM with contact discovery from Gmail/Calendar and daily briefings via Telegram.
+- **[Multi-Agent Content Factory](https://github.com/hesamsheikh/awesome-openclaw-usecases/blob/main/usecases/content-factory.md)** - A sophisticated multi-agent system on Discord for automated content production, including research and script writing.
 
 ---
 
