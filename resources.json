@@ -49,6 +49,70 @@
             "zh": ["等级化记忆结构", "主动式信息检索", "大幅降低 Token 消耗", "支持 OpenClaw 插件集成"]
           },
           "last_updated": "2026-03-04"
+        },
+        {
+          "id": "mimiclaw",
+          "name": "MimiClaw (memovai)",
+          "url": "https://github.com/memovai/mimiclaw",
+          "description": {
+            "en": "A highly optimized OpenClaw variant written in pure C for ESP32-S3 microcontrollers, enabling 24/7 AI assistance on a $5 chip.",
+            "zh": "为 ESP32-S3 微控制器量身定制的高性能 OpenClaw 变体，采用纯 C 语言编写，仅需 5 美元的芯片即可实现 24/7 AI 助手。"
+          },
+          "author": { "name": "memovai", "url": "https://github.com/memovai" },
+          "tags": ["embedded", "variant", "esp32", "low-power", "c-language"],
+          "features": {
+            "en": ["Runs on ESP32-S3 (0.5W power)", "Pure C implementation (No OS required)", "Full ReAct agent loop", "Local data storage & privacy"],
+            "zh": ["在 ESP32-S3 上运行（0.5W 功耗）", "全纯 C 语言实现（无需操作系统）", "完整的 ReAct 代理循环", "本地数据存储与隐私保护"]
+          },
+          "last_updated": "2026-03-04"
+        },
+        {
+          "id": "openclaw-installer",
+          "name": "OpenClawInstaller (miaoxworld)",
+          "url": "https://github.com/miaoxworld/OpenClawInstaller",
+          "description": {
+            "en": "A one-click automated deployment and configuration tool for OpenClaw, simplifying the setup of AI models and messaging channels.",
+            "zh": "OpenClaw 的一键全自动部署与配置工具，极大简化了 AI 模型和消息通道的配置流程。"
+          },
+          "author": { "name": "miaoxworld", "url": "https://github.com/miaoxworld" },
+          "tags": ["installer", "automation", "onboarding", "deployment"],
+          "features": {
+            "en": ["One-click dependency installation", "Interactive model & channel config", "API connection testing", "Multi-platform (macOS/Linux/WSL)"],
+            "zh": ["一键自动化依赖安装", "交互式模型与通道配置", "API 连通性快速测试", "多平台支持（macOS/Linux/WSL）"]
+          },
+          "last_updated": "2026-03-04"
+        },
+        {
+          "id": "tokscale",
+          "name": "Tokscale (junhoyeo)",
+          "url": "https://github.com/junhoyeo/tokscale",
+          "description": {
+            "en": "A CLI tool for tracking token usage across AI coding agents, with explicit support for OpenClaw.ai and data visualization.",
+            "zh": "用于追踪 AI 编程助手 Token 使用量的命令行工具，原生支持 OpenClaw.ai，并提供数据可视化功能。"
+          },
+          "author": { "name": "junhoyeo", "url": "https://github.com/junhoyeo" },
+          "tags": ["cli", "monitoring", "tokens", "analytics", "visualization"],
+          "features": {
+            "en": ["Track token usage for OpenClaw.ai", "Global leaderboard support", "Interactive TUI mode", "2D/3D heatmap contribution graphs"],
+            "zh": ["追踪 OpenClaw.ai 的 Token 消耗", "支持全球排行榜", "交互式 TUI 模式", "2D/3D 热力图贡献贡献图"]
+          },
+          "last_updated": "2026-03-04"
+        },
+        {
+          "id": "manifest",
+          "name": "Manifest (mnfst)",
+          "url": "https://github.com/mnfst/manifest",
+          "description": {
+            "en": "Smart LLM routing for AI agents, optimizing costs by up to 70% with real-time analytics and performance monitoring.",
+            "zh": "为 AI 智能体打造的智能 LLM 路由工具，通过实时分析与性能监控，最高可降低 70% 的 Token 成本。"
+          },
+          "author": { "name": "mnfst", "url": "https://github.com/mnfst" },
+          "tags": ["router", "optimization", "cost-management", "analytics", "plugin"],
+          "features": {
+            "en": ["Intelligent request routing (300+ models)", "Real-time cost & usage dashboard", "Consumption alerts & hard limits", "OTLP-native telemetry"],
+            "zh": ["智能请求路由（支持 300+ 模型）", "实时成本与用量仪表盘", "消耗预警与硬性阈值限额", "原生支持 OTLP 遥测数据"]
+          },
+          "last_updated": "2026-03-04"
         }
       ]
     },
@@ -103,6 +167,38 @@
           },
           "license": "MIT",
           "last_updated": "2026-03-02"
+        },
+        {
+          "id": "openclaw-studio",
+          "name": "OpenClaw Studio",
+          "url": "https://github.com/grp06/openclaw-studio",
+          "description": {
+            "en": "A web-based dashboard for managing OpenClaw Gateway, AI agents, and workflows.",
+            "zh": "用于管理 OpenClaw 网关、智能体及工作流的 Web 仪表盘。"
+          },
+          "author": { "name": "grp06", "url": "https://github.com/grp06" },
+          "tags": ["showcase", "ui", "monitoring", "management"],
+          "features": {
+            "en": ["Visualized gateway management", "Agent configuration UI", "Log streaming", "Workflow editor"],
+            "zh": ["可视化网关管理", "智能体配置界面", "日志流展示", "工作流编辑器"]
+          },
+          "last_updated": "2026-03-04"
+        },
+        {
+          "id": "crabwalk",
+          "name": "Crabwalk (luccast)",
+          "url": "https://github.com/luccast/crabwalk",
+          "description": {
+            "en": "A real-time companion monitor for OpenClaw agents, providing a live node graph visualization of thinking and execution.",
+            "zh": "OpenClaw 智能体的实时伴侣监控器，提供思考和执行过程的活性节点图可视化。"
+          },
+          "author": { "name": "luccast", "url": "https://github.com/luccast" },
+          "tags": ["showcase", "ui", "monitoring", "visualization", "websocket"],
+          "features": {
+            "en": ["Real-time activity monitoring", "Live node graph visualization", "WebSocket connection", "Insight into agent thinking & tool calls"],
+            "zh": ["实时活动监控", "活性节点图可视化", "通过 WebSocket 连接", "深入洞察智能体思考与工具调用"]
+          },
+          "last_updated": "2026-03-04"
         }
       ]
     },
@@ -126,6 +222,22 @@
           },
           "license": "MIT",
           "last_updated": "2026-03-03"
+        },
+        {
+          "id": "x-research-skill",
+          "name": "X Research Skill (rohunvora)",
+          "url": "https://github.com/rohunvora/x-research-skill",
+          "description": {
+            "en": "A specialized research tool for X (Twitter), enabling agentic search, thread tracking, and automated sourced briefings.",
+            "zh": "专为 X (Twitter) 打造的调研工具，支持智能搜索、推特线程追踪以及自动生成带来源的简报。"
+          },
+          "author": { "name": "rohunvora", "url": "https://github.com/rohunvora" },
+          "tags": ["skill", "twitter", "research", "analytics", "briefing"],
+          "features": {
+            "en": ["Agentic X search", "Deep-dive thread tracking", "Automated briefed generations", "Sourced research summaries"],
+            "zh": ["推特智能搜索", "深度线程追踪", "自动化调研简报生成", "带来源的研究总结"]
+          },
+          "last_updated": "2026-03-04"
         }
       ]
     },
@@ -196,6 +308,22 @@
             "zh": ["热点调研代理", "脚本/周报编写代理", "封面图生成代理", "全自动隔夜任务处理"]
           },
           "last_updated": "2026-03-04"
+        },
+        {
+          "id": "clawwork",
+          "name": "ClawWork (HKUDS)",
+          "url": "https://github.com/HKUDS/ClawWork",
+          "description": {
+            "en": "An AI coworker framework based on nanobot (Ultra-Light OpenClaw), introducing economic accountability and professional task evaluation.",
+            "zh": "基于 nanobot（极简版 OpenClaw）的 AI 同事框架，引入了经济责任制和专业的任务评估机制。"
+          },
+          "author": { "name": "HKUDS", "url": "https://github.com/HKUDS" },
+          "tags": ["use-case", "research", "ai-coworker", "economic-framework"],
+          "features": {
+            "en": ["Based on nanobot (Ultra-Light OpenClaw)", "Economic accountability system", "Professional task assessment", "Integration of 9 communication channels"],
+            "zh": ["基于 nanobot（精简版 OpenClaw）", "AI 经济治理与责任系统", "专业级的任务执行力评估", "集成 9 大消息通道与工具"]
+          },
+          "last_updated": "2026-03-04"
         }
       ]
     },
@@ -216,6 +344,44 @@
           "features": {
             "en": ["Direct & Group chat support", "Text & Image exchange", "QR code login flow", "Conversation memory implementation", "Voice-to-text (FunASR/WeChat)"],
             "zh": ["支持私聊与群聊", "文字与图片收发", "二维码扫码登录流", "SDK 级上下文记忆", "语音转文字（FunASR/微信）"]
+          },
+          "last_updated": "2026-03-04"
+        },
+        {
+          "id": "dingtalk-openclaw-connector",
+          "name": "DingTalk OpenClaw Connector",
+          "url": "https://github.com/DingTalk-Real-AI/dingtalk-openclaw-connector",
+          "description": {
+            "en": "Official DingTalk connector for OpenClaw, supporting AI Card streaming and seamless integration with enterprise bots.",
+            "zh": "钉钉官方出品的 OpenClaw 连接器，支持 AI 卡片流式响应，实现与企业机器人的无缝集成。"
+          },
+          "author": { "name": "DingTalk-Real-AI", "url": "https://github.com/DingTalk-Real-AI" },
+          "tags": ["channel", "dingtalk", "enterprise", "connector", "integration"],
+          "features": {
+            "en": ["AI Card streaming response", "Bridge between OpenClaw and DingTalk robots", "Tunneling for local devices", "Production-ready integration"],
+            "zh": ["支持 AI 卡片流式响应", "连接 OpenClaw 与钉钉机器人", "内网穿透支持（无需公网 IP）", "生产级企业集成能力"]
+          },
+          "last_updated": "2026-03-04"
+        }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "name": { "en": "Orchestration & Frameworks", "zh": "编排与框架" },
+      "items": [
+        {
+          "id": "antfarm",
+          "name": "Antfarm (Snarktank)",
+          "url": "https://github.com/snarktank/antfarm",
+          "description": {
+            "en": "A multi-agent team orchestration framework for OpenClaw, enabling structured planning, development, and auditing via YAML-defined workflows.",
+            "zh": "为 OpenClaw 量身打造的多代理团队编排框架，通过 YAML 定义工作流，实现结构化的规划、开发与审计。"
+          },
+          "author": { "name": "snarktank", "url": "https://github.com/snarktank" },
+          "tags": ["orchestration", "multi-agent", "framework", "workflow", "automation"],
+          "features": {
+            "en": ["YAML-defined workflows", "Role-based agent teams (Planner/Dev/Reviewer)", "Repeatable & audited cycles", "No-Docker architecture"],
+            "zh": ["YAML 定义工作流", "角色化代理团队（规划/开发/审计）", "可重复且受审计的反馈环", "无需 Docker 的本地架构"]
           },
           "last_updated": "2026-03-04"
         }
